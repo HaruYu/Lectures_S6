@@ -43,7 +43,7 @@ Graphe K5
 
 ## 1847 : Kirchhoff
 
-Arbre recouvrant : un arbre qui recouvre le graphe
+Arbre recouvrant : un arbre qui recouvre le graphe  
 
 ## 1860 : Cayley
 
@@ -98,7 +98,7 @@ Pour K4
 D =
 
 |2|0|0|0|
-|-|
+|-|-|-|-|
 |0|3|0|0|
 |0|0|3|0|
 |0|0|0|2|
@@ -118,3 +118,128 @@ L=
 | -1 |  3  |  -1 | -1 |
 | -1 | -1  |  3 | -1  |
 |  0 |  -1 | -1  |  2 |
+
+
+---
+15 Février 2018
+---
+![Exemple1](exemple1.png)
+
+G = (v,E)
+V = {0,1,2,3,4,5,6}
+E = {{0,1}, {0,3}, {1,2}, {1,5}, {3,4}, {4,5}}
+avec la convention que si (s,d) dans E, alors (s,d) = (d, s)
+(par exemple on considere aue (4,3) dans E)
+
+On va calculer les compléxités en fonction de |V| et de |E|
+|E| <= [2 parmi |V|] = (|V| * (|V| - 1)) / 2 < |V|² / 2
+``|E| = O(|V|²)``
+
+Dans un grphe connexe, (chaque sommet a chemin vers n'importe quel autre) il y a au moins |E| >= |V| - 1
+`` |E| = OMEGA(|V|) si graphe connexe``
+
+### DFS (Depth First Search)
+
+Liste d'adjacence
+0| ->1->3
+1| ->0->2->5
+2| ->1
+3| ->1
+4| ->0->4
+5| ->1->4
+6|  
+
+En python
+```python
+edges = [[1,3],[0,2,5],[1],[0,4],[3,5],[1,4],[]]
+len(edges) = |V|
+
+def dfs(adj):
+  n = len(adj)
+  seen [False]*n
+  def rec(start):
+    print(start)
+    seen(start)=True
+    for d in adj[start]:
+      if not seen[d]:
+        rec(d)
+  for d in range (n):
+    if not seen[d]:
+      rec(d)
+#------------------------------------------------------------------------------
+>>> dfs(edges)
+> 0
+> 1
+> 2
+> 5
+> 4
+> 3
+```
+
+Version itérative du DFS
+Pile de paires (i,j) où i est le sommet edges[i]
+j le successeur edges[i][j]
+```python
+def dfs_iter(adj):
+  n = len(adj)
+  seen = [false] * n
+  stack = []
+  for start in range(n):
+    if seen[start]:
+      continue
+    stack = [(start,0)]
+    while(stack):
+      src, pos = stack.pop()
+      if pos == 0:
+        print(src)
+        seen[src] = True
+      if pos == len(adj[src]):
+        continue
+      stack.append(src, pos+1)
+      if not seen(adj[src][pos]):
+        stack.append((adj[src][pos],0))
+```
+
+### BFS -BReadth First Search-
+
+```python
+def bfs(adj):
+  n = len(adj)
+  seen = [False] * n
+  for start in range(n):
+    if seen[start]:
+      continue
+    queue = [start]
+    seen[start] = True
+    while queue:
+      src = queue.pop(0)
+      print(src)
+      for dst in adj[src]:
+        if not seen[dst] :
+          seen[dst] = construirequeue.append(dst)
+```
+
+### Calcul de distance depuis un sommet
+
+```python
+from collections import deque
+
+def distmap(adj, start):
+  n = len(adj)
+  dist = [None] * n
+  queue = deque([start])
+  while queue:
+    src = queue.popleft()
+    d = dist[src]
+    for dst in adj[src]:
+      if dist[dst] is None:
+        dist[dst] = d+1
+        queue.append(dst)
+  return dist
+```
+
+Que faut-il changer pour travailler un graphe orienté?
+Rien dans l'algo. C'est just 'adj' qui change (et n'est plus symétrique
+Que  faut-il changer si le graphe est pondéré par des distances?
+
+### Dijkstra

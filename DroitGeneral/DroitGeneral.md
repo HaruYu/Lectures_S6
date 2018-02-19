@@ -45,7 +45,7 @@ Le conseil constitutionnel vérifie la conformité des lois par rapport à la co
 
 Le droit international n'est pas un droit supra-national. Ce qu'il faut accepter, c'est que le droit international est composé de deux grands types de règles:
 * d'harmonisation : dans une matière tous les pays qui adhère a un traité s'engagent à une norme
-* surtout des règles qui vont permettre de savoir auel droit national qu'on applique à deux personnes appartenant à deux États différents. Des conflits de compétences, pas de droit constitutionnel.
+* surtout des règles qui vont permettre de savoir quel droit national qu'on applique à deux personnes appartenant à deux États différents. Des conflits de compétences, pas de droit constitutionnel.
 
 Le droit international est sous le droit constitutionel.
 
@@ -53,7 +53,7 @@ Le droit international est sous le droit constitutionel.
 
 C'est un droit hybride. Qui prend plus en plus d'importance. Il est droit international quand on parle des traités fondateurs mais comme interne quand on parle des decisions européenne
 
-Les traités fondateurs ont créé des institutions: Le *Parlement européen*, la *comission*, la *cour de justice* et le *conseil*
+Les traités fondateurs ont créé des institutions: Le *Parlement européen*, la *comission*, la *cour de justice CJUE* et le *conseil*
 Une fois créées, les décisions prises par ces institutions deviennent interne au pays.
 On peut créer de nouvelles institutions (banque européenne Maastricht)
 
@@ -64,4 +64,114 @@ Les décisions prises :
 
 Aujourd'hui, on a beaucoup de loi qui ont pour origine une directive. On le sait seulement qquand la loi est impopulaire généralement.
 
-### La loi
+Traités fondateurs: de Rome
+
+#### CJUE
+  Elle peut être intérogée par les États pour interpêter les textes juridiques. Les décisions de la CJUE sont souvent suivies mais ce n'est pas obligatoire.
+
+### Normes Françaises --
+
+La constitution distingue plusieurs types de normes (Article 34 de la Constitution) qui divise les matières sur lesquelles on peut légiférer en trois groupes
+* la Loi
+* Le droit du travail (matières mixes) relèveront du règlement avec donc un processus d'adoption plus simples.
+* Le détail
+
+#### La Loi
+
+Le parlement est composé de deux chambres:
+ * l'assemblée nationale dissolvable par le Président de la République... 6 ans renouvelable par moitié tous les 3 ans
+ * Le Sénat renouvelable 5 ans
+
+Elle est adoptée par le Parlement. L'initiaative de la loi appartient conjointement au gouvernement et aux parlementaires. Elles ont des origines gouvernementale (environ 98%).
+1. Déposé sur le bureau de l'assemblée nationale (un projet de loi)
+2. Les députés, au cours d'une séance publique, sont discutés, modifiées (amendement) et votées les lois.
+3. Passé au Sénat (étude en comission, présentation en public puis vote)
+  1. Si par coup de chance, les deux assemblées ont voté les mêmes textes
+    1. Saisie du conseil constitutionnel
+    2. Promulgué par le président
+    3. publication (loi applicable le lendemain de la parution officielle)
+  2. Si non, il y a la navette. Les textes font l'allé retour entre le Sénat et l'Assemblée
+    1. Quand ça devient long, on fait une commition mixte paritaire
+    2. Si ca marche pas, l'Assemblée Nationale vote la loi.
+
+* 49.3
+
+---
+ # 19-02-2018
+***
+
+## Le droit pénal
+L'État émet les procédures. Le citoyen n'a pas a intervenir.
+Incrimination (comportement interdit) et donc l'infraction est défini. On peut s'habiller comme on veut sauf nudité ou bien visage couvert.
+Élément intentionnel
+Le fait de ne pas respecter une loi est une infraction. Il y en a trois:
+* contraventions
+* Délits (jusqu'à 10 ans d'emprisonnement)
+* Crimes. Non synonime d'homicide.
+
+Un homicide involontaire est un délit. Un meurtre est un crime.
+Dans une entreprise, on doit devoir une tenue requise, l'entreprise peut sanctioner les salariers.
+Quand il y a une victime, la victime peut se porter partie civile. Ca veut dire que la personne aa un accès privilégié au dossier et qu'elle sera représentée par son avocat. Si elle veut des dommages et intérêts, il devra y avoir une action. $rightarrow$ Deux procès: l'état et la victime.
+
+# L'organisation juridictionnel
+
+Elel est calquée sur les branches du droit vu précédemment.
+Deux grands ordres de juridiction. (ensemble hierarchisé de juridictions avec un ordre supérieur.)
+* Ordre administratif avec à sa tête le conseil d'état compétent pour tout ce qui est droit public
+* Ordre judiciaire ensemble de juridictions hiérarchisées et articulées entre ellees. Il a a sa tête la cour de cassation. Il est subdivisé en deux:
+  - Juridictions civiles
+  - Juridictions pénales (répressives)
+
+L'interprétation de séparation des pouvoirs a fait 2 ordres pour séparer l'État et la justice. Indépendants entre les deux ordres.
+
+En France, les magistrats qui jugent (magistrats du siège) sont indépendants (ne reçoivent ni d'ordre ni d'instructions du ministère de la justice). L'État ne gère pas leur carrières non plus. Le conseil supérieur de la magistrature la gère.
+
+Quand on ne sait pas quel est le procès, le tribunal de conflit décide de quel ressort il s'agit.
+
+## L'ordre administratif
+
+* Conseil d'État.
+* Cour d'appel administratif. 2nd degré
+* Les tribunaux administratifs. 1er degré
+
+1er degré = 1ere instance. Les juridictions de premier degré sont celles qu'on saisit en premier.
+
+S'il s'agit d'un litige entre commerçant, c'est des tribunaux de commerce qu'il en relève. Composés de juges non professionnels. Ce sont des commerçants élus par des commerçants. Quand un litige oppose un particulier a un commerçant, si l'entreprise assigne, elle ne peut pas saisir le tribunal de commerce. Si c'est le non commerçant, il peut choisir soit l'un soit l'autre.
+
+Les conseils des prud'hommes compétente pour les litiges entre un employeur et un salarier. Composé de juges désignés pas des syndicats La moitié représente les employeurs et l'autre les salariés.
+Il y a d'abord une phase de consiliation
+* Un juge employeur un juge epmployé qui essaie de résoudre le litige. S'ils n'y arrivent pas, ils envoient l'affaire en jugement.
+* En jugement, il y a 2 employeurs, 2 employés. La décision doit être prise a la ma majorité. Quand ils sont en partage de voie, l'affaire repasse devant le juge départiteur.
+
+Chaque section des prud'hommes sont divisés en 5 sections:
+* commerce
+* industrie
+* agriculture
+* encadrement
+* activité diverses
+
+Par sections, on n'applique pas les mêmes coutumes.
+
+Il y a des petites juridictions avec domaines très spécifiques: Sécurité sociale...
+
+La plus grosse juridiction est le trihbunal de grandes instances et le tribunal d'instances.
+
+### Le tribunal de grandes instances
+
+Un tribunal est composé de plusieurs chambres. Plus ils sont gros, plus ils sont spécialisés.
+Si les demandes sont supérieures a 10k€, on doit saisir le tribunal de grandes instances. Un pb de droit à l'image entre deux étudiants: tribunal de grandes instances. Dettes: 10k ou pas?
+
+Le tribunal d'instances traites les affaires de moins de 10k€
+
+Les tribunaux de proximité: Compétent pour les affaires inférieurs a 4K€
+
+### Juridictions pénales
+
+* Cours d'assises pour les crimes
+* Tribunaux correctionnels délits
+* Tribunaux de police pour les contraventions
+
+Pour une amende, la personne peut être revue par le tribunal.
+
+#### Tribunaux de police
+POur les contraventions de 5ème classe, police = société. avec un magistrat professionel. 

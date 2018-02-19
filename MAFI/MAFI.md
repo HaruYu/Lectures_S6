@@ -1,4 +1,4 @@
-# Mathématiques associées à la finance
+M# Mathématiques associées à la finance
 
 M. Groscot, prof de maths à l'EPITA.
 Un truc bizarre dans la finance: 20% du PIB
@@ -41,3 +41,52 @@ ___|_______
 100 000€ -> 101 000€ remboursé
 200 000€ -> 202 000€ remboursé
 C'est proportionnel à S.
+
+## Emprunt à court terme
+
+* Emprunt d'une certaine somme à T0
+* Remboursement a T
+* T < 1 an
+* Avec intérêts
+* Délai compté en jours
+
+Exemple: 1,000,000€ sur 100 jours (0,274 années)
+"Pifomètre" 4% -> 4% * 0.274 années = 1.09%
+10,000€ d'intérêts -> 100€ par jours
+(intérêts proportionels au nombre de jours, cf taux simples.)
+
+Année = 360 jours
+
+### Formule
+Intérêts: I = r \* d/360 \* s
+s = somme empruntée
+d = nombre de jours
+r = taux d'intérêt
+
+* Scénario 1
+  - Intérêts post-comptés
+  - Intérêts pré-comptés
+
+L'intérêt simple est exact / 360
+
+
+#### Exemples
+
+Nombre de jours
+entre le 03/03/2017 et le 07/06/2017
+96
+25/04/2017 et le 27/02/2018
+308
+02/01/2016 et le 25/10/2016
+297
+
+Entreprise
+S = 130,000€
+Sur d = 91joursr = 2.5%
+Exact/360
+I = 2.5 \* 91/360 \* 130,000 = 821.527€
+
+Variante : même convention
+Entreprise rembourse 130 000€
+Montant emprunté S2
+S2 = ? 

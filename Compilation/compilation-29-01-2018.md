@@ -236,6 +236,49 @@ Handle the side effects for example when a & b & c
 
 ## The scanner and the parser
 
-Symbols : we can determine the language 
+Symbols : we can determine the language
 
 ### Bison and Flex
+
+## Scope and variables
+
+Scope: Area where a variable is defined and where it is accessible.
+
+A symbol is associated to a memory area. If the symbol dies, the memory area isn't necessary freed
+
+Diferents scopes:
+* {}
+* If ending at the end of else
+* enums
+* ```C++
+  int N = 42;
+  void foo (int i, int j = N);
+```
+
+We need scopes to do modularity work.
+
+### Binding
+
+
+### Symbol table
+
+Every nodes of the AST has a parent field, which allows to get previous definitions >> NOPE.
+Use an hash map that is copied in a stack
+Environment and type checking
+
+#### Hashtable
+
+A scope is an hashmap, and push it on a stack
+
+---
+# 19-02-2018
+***
+
+Link break to while
+continue to loops
+If to else (it is already linked in the AST node )
+return to functions
+
+Find the variable that is masked, not the ones that are alive in a scope
+
+## 
