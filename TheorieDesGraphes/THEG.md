@@ -243,3 +243,13 @@ Rien dans l'algo. C'est just 'adj' qui change (et n'est plus symétrique
 Que  faut-il changer si le graphe est pondéré par des distances?
 
 ### Dijkstra
+
+cf Wikipedia
+
+***
+# 22 fevrier 2018
+***
+
+Algo Bellman-Ford : PCC des graphes avec poids dans R sans cycle. (1 source, n destinations)
+
+3 algos: PCC avec poids dans R, n sources, n destinations.  

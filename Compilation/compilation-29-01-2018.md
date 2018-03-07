@@ -279,6 +279,36 @@ continue to loops
 If to else (it is already linked in the AST node )
 return to functions
 
+Link functions, types
+Handle overloading
 Find the variable that is masked, not the ones that are alive in a scope
 
-## 
+---
+# 05-03-2018: Types
+***
+
+Why'd we use types?
+Instructions in assembly language are typed. However, the data is not typed.
+
+Using types is useless and complicated to manipulate. So try to take them off.
+
+Russel's paradox: there a type error
+
+Types are usefull to optimize.
+
+## TypeChecking
+
+Determine if an expression is valid. Determine if a type is compatible with another is long to check.
+
+### Strongly typed languages
+When we can determine the type of a variable whenever during the running time.
+
+C++ is not strongly typed because of unions.
+
+### Equivalence
+
+### Static typing vs dynamic typing  
+
+static types determined at the compiletime, dynamic determined during runtime.
+
+### Type checking and type infrence

@@ -174,4 +174,59 @@ Les tribunaux de proximité: Compétent pour les affaires inférieurs a 4K€
 Pour une amende, la personne peut être revue par le tribunal.
 
 #### Tribunaux de police
-POur les contraventions de 5ème classe, police = société. avec un magistrat professionel. 
+Pour les contraventions de 5ème classe, police = société. avec un magistrat professionel.
+
+#### Cour d'assise
+
+#### tribunal de proximité
+
+#### Tribunal de correction
+
+***
+2018-03-05
+---
+
+quand l'affaire passe devant les tribunaux du premier degré, on peut contester les jugements. Il y a un délai pendant lequel le justiciable peut faire appel (généralement 30 jours). Si personne ne bouge pendant ce délai, la décision de justive devient éxécutoire et devient non constestable (cf Autorité de la force jugée).
+
+### Faire appel (Interjeter appel)
+
+#### Qui peut faire appel?
+
+Toutes les parties au procès peut faire appel. Le parquet peut aussi faire appel (il fait parti du probès)
+
+#### Pour quel motif?
+
+Pour tous motifs: Contester les faits, l'interprétation du droit...
+Les cours d'appels reprennent l'affaire depuis le début.
+Les cours d'appel sont communes aux juridictions civiles et pénales.
+
+La cour d'appel est le premier degré d'harmonisation car il y a beaucoup moins de cour d'appel que de tribunal de premier degré.
+* Si la cour est OK avec la première décision : Elle la confirme
+* Elle n'est pas OK: Elle infirme et elle redit le droit : Sa décision est directement applicable.
+L'appel est suspensif : Le fait de faire appel suspend la décision du tribunal. $rightarrow$ On repousse d'un certain temps la décision du tribunal. Pour éviter l'abus, le triabunal peut dire qu'elle est provisoirement executable. Elle peut être partielle: Seulement sur des faits non contestables.
+
+En matière de crimes, il y a des cours d'appel d'assises
+
+### La cour de cassation
+
+Il n'y a qu'une seule seule cour de cassation.
+
+La cour de cassation est divisée en 6 chambres
+* Trois civiles
+* Une commerciale
+* Une sociale (travail)
+* Criminelle (pénal)
+
+Elle peut décider de se réunir en chambre mixte. Son rôle est d'harmoniser l'ensemble des décisions de justice. Harmoniser la règle de l'interpretation du droit entre les differents tribunaux d'un point de vue géographique mais aussi d'un point de vue de matière. Elle ne va donc pas juger les faits, mais seulement du droit. Les faits sont acquis, elle regarde seulement si la règle de droit est correctement interprêtée.
+``Elle ne tranche pas de litiges``
+
+Celui qui conteste demande un pourvoi. Pour casser la décision.
+
+**Pourvoi** divisé en moyens, divisé en branches.
+
+Appel -> Pourvoi ->
+  - Arrêt de rejet si OK avec la décision $rightarrow$ fin
+  - Casse $rightarrow$ annule la décision, et redirige vers une autre cour d'appel.
+  - Cassation partielle (plus rare)
+
+Il peut y avoir un second pourvoi en cassation. 
