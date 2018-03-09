@@ -21,4 +21,10 @@ Avant, on avait une meilleure couverture qu'en 2018
 Taux de pénétrations: Poucentage de la pop. ayant un abonnement
 Sur les 4 reseaux, un est voué a disparaître: le 3G
 
+World Congress
+Celui qui régule les réseaux de télécommunication ARCEP
+
+* TA : "Terminaison d'appel"
+  - La termimnaison d'appel mobile chez les appels était de 40cts/min 
+
 \O\ /o\ /O/

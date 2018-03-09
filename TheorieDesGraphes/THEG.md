@@ -253,3 +253,93 @@ cf Wikipedia
 Algo Bellman-Ford : PCC des graphes avec poids dans R sans cycle. (1 source, n destinations)
 
 3 algos: PCC avec poids dans R, n sources, n destinations.  
+
+
+***
+# 08 mars 2018
+---
+
+## Couplage (matching)
+
+### Problème 2 : Armée multinationale
+
+* chaque soldat parle >= 1 langue
+* Il faut 2 soldats parlant la même langue
+
+Maximiser le nombre de tanks (2 soldats qui parlent la même langue)
+(schema : K5, K3, K4; K4 et K3 relié aux bords de K5)
+
+### Problème 3 : greffe d'organes
+
+* Receveur A | C
+* Donneur  B | D
+
+A non compatible avec B
+C non compatible avec D
+
+Maximiser le nombre de greffes
+
+
+**Def** :
+
+* Un couplage d'un graphe G = (V, E) est un sous ensemble M $\subset_=$ E d'arêtes tel aue M ne contient pas deux arêtes voisines
+* Un couplage maximal est un couplage M qui n'est pas contenu dans un couplage strictement plus grand
+* Un couplage maximum est un couplage M tel que pour tout couplage M'; |M'| <= |M|
+```
+E = ${e_1, e_2, e_3, e_4, e_5, e_6}$
+M1 = $\emptyset$ est un couplage "trivial"
+M2 = {e_1, e_4} est un couplage maximal non maximum
+M3 = {e_1, e_3} n'est pas maximal car contenus dans {e_1, e_3, e_5}
+M4 = {e_1, e_3_ e_5} est maximal et maxumum
+M5 = {e_2, e_4, e_6} aussi
+```
+
+**Note**: Un couplage maximum est maximal
+
+* Dans un graphe de |v| sommets, tout couplage M vérifie |M| >= $\lfloor M/2 \rfloor$
+
+### Construction d'un couplage maximal?
+
+Répéter:
+
+* Tirer une arête (x, g) au hasard
+* Ajouter (x, g) à F
+* Supprimer (x, g) et les arêtes incidentes
+
+### Construire un couplage maximum ?
+
+* On construit un chemin améliorant
+* On permute les couleurs le long de ce chemin
+* Ca fait gagner une arête dans le couplage
+
+Répéter jusqu'à ce que le chemin
+
+**def** :
+
+* Sommet libre: Sommet dont toutes les arêtes incidentes ne sont pas dans M
+* Un chemin P $\in$ E est améliorant si il relie 2 sommets libres en alternant des arêtes de E \ M et des qrêtes de M
+
+**Prop** :
+
+* Si G = (v, E) a un couplage M et un chemin améliorant P alors le couplage
+  - M' = M $\oplus$ P a une arête de plus que M.
+
+**Théorème**:
+
+* Il existe un chemin améliorant **ssi** M n'est pas maximum
+  - Démo: ($\rightarrow$) évident
+  - ($\leftarrow$) On suppose M est non maxumum, donc il existe M' tq |M'| > |M|. Considérons le graphe G = (V, M' $\oplus$ M)
+    a. G' contient plus d'arêtes de M' que de M
+    b. Chaque sommet de G' touche au plus une arête de M et au plus une arête de M'
+  - Les sommets non isolés sont connectés par alternance d'arêtes de M et M' à cause de a. et une composante de G' contient plus d'arêtes de M' et forme un chemin ameliorant.
+
+```
+M $\rightarrow \emptyset$
+  Tant qu'il existe un chemin améliorant P
+    M $\rightarrow$ M $\oplus$ P
+return M
+```
+
+### Algo d'edmonds pour trouver un chemin améliorant.
+
+* 
