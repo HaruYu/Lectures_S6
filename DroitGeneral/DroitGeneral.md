@@ -183,7 +183,7 @@ Pour les contraventions de 5ème classe, police = société. avec un magistrat p
 #### Tribunal de correction
 
 ***
-2018-03-05
+# 2018-03-05
 ---
 
 quand l'affaire passe devant les tribunaux du premier degré, on peut contester les jugements. Il y a un délai pendant lequel le justiciable peut faire appel (généralement 30 jours). Si personne ne bouge pendant ce délai, la décision de justive devient éxécutoire et devient non constestable (cf Autorité de la force jugée).
@@ -229,4 +229,59 @@ Appel -> Pourvoi ->
   - Casse $rightarrow$ annule la décision, et redirige vers une autre cour d'appel.
   - Cassation partielle (plus rare)
 
-Il peut y avoir un second pourvoi en cassation. 
+Il peut y avoir un second pourvoi en cassation.
+
+
+***
+# 2018-03-12
+---
+
+## Le pourvoi
+
+Le pourvoi demande toujours la cassation. Avec un motif de droit.
+
+Si le demandeur se trompe, la cour de cassation l'écarte. Si elle est d'accord avec le pourvoi, elle casse.
+
+Quand il y a un deuxième pourvoi, la cour de cassation se réunit en rassemblement pleinière. Si tout de même, il y a cassation, la troisième cour d'appel doit se plier a la décision de la cour de cassation.
+
+Faire appel pour un mode d'emploi
+
+## L'action en justice
+
+On se limite à l'action civile
+
+### Procédure civile
+
+L'initiation de l'actino en justice appartient a la personne physique ou morale qui prétend qu'un droit n'a pas été respécté.
+
+L'action en justice est personnelle. Il faut donc un intérêt légitime(fondé sur un droit). L'intérêt doit éxister, pas de saisie du tribunal à titre préventif
+
+En matière civile, le juge est là pour viser pour trancher le conflit entre deux personnes, mais il n'a pas a investiguer. Les partis doivent fixer les contours du litige. Le procès est accusatoir et pas inquisitoire. Le juge ne répondra aux seules questions qu'on lui pose.
+
+Si l'attaque est accusatoire, on ne néglige aucun angle d'attaque pour faire gagner sa prétention.
+
+Chacun doit apporter la preuve de ce qu'il dit.
+
+Chacune des parties connait l'argumentaire de l'autre. Les parties prouvent, le juge applique le droit.
+
+L'action en justice est gratuite. Sauf les frais de représentation, elle est souvent obligatoire. Les faits prouvés peuvent couter cher.
+
+Il y a une aide juridictionnelle qui peut être accordé, dans ces cas là il peut y avoir une aide pour payer la représentation. C'est sous condition de revenu.
+
+```
+Article 700 du de procédure civile
+
+Chacune des parties peut demander à l'autre des frais forfaitaires pour payer le process.
+```
+
+```
+Tout ce qui n'est pas prouvé ou prouvé illégalement n'existe pas.
+```
+
+Il y a 4 types de preuves:
+
+* écrit : Un acte daté, signé, fait en autant d'originaux que de parties à l'acte. Peu importe le support
+* témoignage : Compliqué pas forcément fiable.
+* avoeux : Avoeu devant le juge et avoeu extra-judiciaire. Avouer devant le juge est la reine des preuves. On ne peut pas désavouer devant le juge. 
+* serment
+* Présomption : déduire des faits à partir de faits. Présomptions simples et présomptions irréfragables. Remettre une quittance datée et signée est irréfragable.

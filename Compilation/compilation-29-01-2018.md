@@ -312,3 +312,36 @@ C++ is not strongly typed because of unions.
 static types determined at the compiletime, dynamic determined during runtime.
 
 ### Type checking and type infrence
+
+  Begining to type leaves in the AST
+
+***
+# 2018-03-12
+---
+
+coercision : Conversion narrow / wide conversion
+
+Type of while: void
+
+```
+while (not(true = false))
+  (
+    1 + 2 * 42 - 0;
+    8.0
+  )
+```
+
+## Subtypes
+
+On dénote par la relation X <= Y pour dire:
+
+* X est une sous classe de Y
+* X peut s'utiliser là où on peut utiliser Y
+* X est conforme à Y (a les mêmes propriétés que)
+
+### Lub (Least Upper Bound)
+
+LUB(X, Y) = Z
+X <= Z && Y <= Z
+Et
+s'il existe Z' tq X <= Z' && Y <= Z' alors Z <= Z'
