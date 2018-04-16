@@ -172,3 +172,39 @@ Size of a superblock : Size of a block. Amount of inode in the filesystem, amoun
 ## Inode
 
 This is a structure. Composed of metadatas, a tab with addresses (direct blocks) and indirect blocks B-tree system (Addresses that points to other tabs of blocks), double indirect blocks same as indect but with height 2, and triple.
+
+
+***
+# 15 mars 2018
+---
+
+# Scheduling
+
+Run every processes without having starvation, fairness and quick to dispatch (constant O(1))
+
+CPU time: Executing time on a machine
+
+  * User time
+  * Kernel / system time
+
+aim: minimize kernel time / maximize user time.
+
+Execution time : amount of time the process is execued (runing)
+
+Turnaround time : Amount of time the process takes to end (between new -> dead)
+
+thoughtput
+
+Response time : amount of time the program takes to run (from new to first run)
+
+Waiting time : amount of time being "ready"
+
+## Bottle beck
+
+limit the flow, slow down a process / application. In a scheduler :
+
+* IO Bound -> Optimize by changing waiting time
+* CPU bound -> Optimize by changing execution time, turnaround time
+
+
+Like to run the longer when CPU bound / more ofthen when IO bound 

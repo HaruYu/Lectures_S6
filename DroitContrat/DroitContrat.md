@@ -79,3 +79,48 @@ Résponsabilité des choses dont on a la garde ou des personnes dont on répond.
 
 Les maîtres et les commettants sont responsables de leurs salariés. Les maîtres d'animaux sont responsables pour leurs animaux qu'ils soient sous leur garde.
 Le proprietaire d'un bâtiment est résponsable de ses ruines.
+
+Trouver un contrat B2B / B2C: (groupe d'au moins 2)
+* S'il est légal: le lire, l'analyser, regarde ce qu'il manque (préambule entre autres..?) dire s'il est légal ou pas.
+  - S'il paraît totalement légal, le transformer pour qu'il devienne à la limite de l'acceptable. (introduire des causes abusives...) [Liste grise](commissiondescausesabusives). Comment justifier cela.
+  - Rechercher dans les affaires similaires des décisions de justice (legifrance, comission des causes abusives...) et évaluer les risques.
+
+## Spécificité des contrats informatiques
+
+Les contrats informatiques n'ont pas de sens. Il y a des particularités sur les contrats qui portent sur du materiel informatique / logiciel:
+
+* Il est imposé l'obligation de renseignement de celui qui propose le contrat. : C'est un domaine très technique, il doit donc renseigner l'autre partie.
+* Celui qui propose doit donc proposer une solution qui correspond à ses besoins.
+
+L'obligation de conseil est variable de façon géométrique: Plus c'est un noob, plus il faut informer.
+
+Corrolaire: obligation de renseignement de la part du client: Il doit se renseigner et colaborer. D'où l'importance de tracer les questions/réponses de chacun. Les deux partis ont intérêt à prendre un prestataire extérieur si l'affaire coûte cher.
+
+Le conseil peut aller jusqu'à mettre en garde le client.
+
+# Droit de la consommation
+
+C'est un droit récent qui évolue beaucoup et très porté par l'UE.
+
+Elle part sur le principe qu'il y a un désiquilibre théorique entre le consommateur et le vendeur. Le consommateur est souvent face à un contrat d'adhésion. Il vient protéger le consommateur et agit à deux moments dans le contrat: à la formation du contrat, et au niveau des garanties.
+
+Il interdit un certain nombre de pratiques commerciales:
+
+* La vente à perte: On estime que les produits vendu à perte sont là pour arnaquer les consommateurs. Sauf pour les denrées perissables, produits de haute technologie... (Certaines pratiques sont interdites en droit de la concurrence et en droit de la consommation)
+* Les ventes avec primes. treize à la douzaine. Si pas de vente à la perte. et si même produit. Ou bien si c'est un accessoir avec le produit principale.
+* Ventes avec cadeau  Le prix du cadeau doit être dérisoire par rapport a celui du produit acheté.
+* Refus de vente sauf vente d'alcool à mineurs et autres ventes soumises à condition.
+* Vente par lots. Sauf si le produit peut être trouvé à l'unité.
+* Vente liée: la même chose que par lot mais les produits sont différents.
+
+* Les prix doivent être affichés et l'affichage des prix à l'unité de mesure aussi.
+
+Le droit de la consommation joue droit sur le consentement de la personne et la garantie (contre l'éviction -être propriétaire de ce que l'on vend- et contre les vices cachés -Un vice caché est par définition caché, inaparant et inconnu des deux parties.-).
+
+À cela, viennent s'ajouter d'autres règles sur la vente à distance:
+
+* délai de rétractation de 14 jours
+
+## Contrats depuis 2008: Contrats télécommunications
+
+La loi a réglementé la durée de ces contrats, les conditions de résiliation, avantages sur une durée. 
