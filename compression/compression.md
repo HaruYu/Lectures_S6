@@ -137,3 +137,53 @@ $$ H(B) = 0.5 $$
 $$ H(C) = 0.375 $$
 $$ H(D) = 0.375 $$
 $$ H = 1.75 = 7/4 Sh/symb $$
+
+
+# Lossless compression Algorithm
+
+It is based on redundancy of the datas. A statistic model can be taken in function
+of a given statistic data (e.g. French has stats about the probability of each character...)
+One backside is that the model changes from a country to another.
+
+## RLE
+
+Count the number of characters and put it (N*L). It is not efficient for texts, but it is
+for synthesis/noise free images (bmp format).
+
+**problem** : For numbers, a special character has to be inserted.
+
+The fax: Binarize a document, scans it and sends it through a telephone line.
+The first line is sent, and then the differences between the first and second
+are sent (compressed and sent). MPEG has the same model.
+
+## Huffman compression
+
+* Calculate the histogram of the characters
+* Build a table with the frequencies
+* Build the tree with the less frequent
+* push in the table, sort it
+* Rebuild with the less frequent.
+
+## Bzip2
+
+* Burrows-wheeler transform
+  - Change the position of the characters to get words.
+* Move To Front transform
+
+### Burrows wheeler
+
+```
+b a n a n a $ |> 1
+$ b a n a n a |> 2
+a $ b a n a n |> 3
+n a $ b a n a |> 4
+a n a $ b a n |> 5
+n a n a $ b a |> 6
+a n a n a $ b |> 7
+```
+
+Sort each lines.
+
+### MoveToFront transformm
+
+## LZW

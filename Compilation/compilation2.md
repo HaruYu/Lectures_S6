@@ -28,6 +28,8 @@ Multiply it go get as easy as possible (a lot of compilators)
 
 ## Tree : intermediate language
 
+sxp: executes an instruction for the side effects
+
 ## Memory management
 
 - Retisters
@@ -82,3 +84,32 @@ When alloca is called, there's gonne be a problem. When it is called, a new
 #### Escaped variables
 
 Go up on the stack stackframe by stackframe to get the escaped variable.
+
+## Static link
+
+Getting a pointer to the previous stackframe. For recursive calls, give the same
+stack pointer to the recursive call instead of itself.
+
+### problem
+
+The problem "how many recursive calls" is solved because the pointer of the syntaxic
+ parent is given. If the called function calls its "brother", it has to give its
+ syntaxic parent.
+
+## Translation to intermediate language
+
+* Preserve some registers (fp sp)
+* Allocate frames
+* handle static link
+* Receive  the arguments
+
+prototranslation: Translate as much as possible before returning to the parent.
+
+```
+Cjump e T, F
+label F
+  Cjump !e, F, T
+  label T
+    Cjump e, T, F
+    jump F
+```

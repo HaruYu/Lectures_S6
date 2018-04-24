@@ -1,0 +1,6 @@
+digraph{
+  alpha->a [label = "0"]
+  a->f [label = "6"]
+  f->g [label = "3"]
+  g->omega [label = "1"]
+}
