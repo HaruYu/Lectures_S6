@@ -78,3 +78,12 @@ Faire des programmes cache friendly c'est pas mal.
 
 * Casser les dépendances (moins de parenthèses dans les calculs)
 * Arranger des branchements différents avec les plus fréquents au dessus
+
+# 2018-04-27
+
+On veut faire du parallelisme car on ne peut plus augmenter la fréquence des processeurs.
+
+## Threads in C++11
+
+std::thread
+Join the thread or detach it before destroying it.

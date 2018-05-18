@@ -113,3 +113,25 @@ label F
     Cjump e, T, F
     jump F
 ```
+
+
+# 14-05-2028
+
+* On ne peut pas compiler en étant le plus optimal possible. Il faut faire des
+choix.
+
+# Liveness Analysis
+
+On a un pseudo assembleur avec des registres limité. On doit savoir quand nait
+une variable et quand elle meurt.
+
+Exemple:
+
+```
+  t0 = 1
+  t1 = 2
+L1: t2 = t0 + t0
+  t1 = t1 * t2
+  if t1 < t3 goto L1
+  return t1
+```

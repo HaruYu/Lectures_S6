@@ -12,6 +12,12 @@ title: Résponsabilité Sociétale des entreprises
 
 4 cours.
 Evaluation le 5 juin.
+Faire une présentation (max 4 personnes) sur une entreprise Française qui ne
+présente pas son rapport de DD, présenter quelles sont les actions principales
+en matière de RSE (10 actions principales), croiser ça avec:
+
+* les objectifs de DD
+* les thématiques de l'ISO 26000
 
 ## Evaluation
 

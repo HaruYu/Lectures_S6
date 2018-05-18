@@ -170,3 +170,8 @@ $\lambda_i$ - $lambda_{i'}$ = v(i',i)
 Cervières -> no.1
 
 ``Sorry not sorry j'ai rajkit l'exemple``
+
+Recherche du chemin maximal: Même algo après avoir changé v(i,j) -> 45 - v(i,j)
+
+* Chemin le plus long:
+  - 1 - 3 - 5 - 7 - 8 - 9 - 11 - 10 - 13: Longueur = 240.
